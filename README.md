@@ -20,11 +20,10 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
 # Multiplicación de matrices de ColumnasXColumnas
 
 ## 1 Escenario: 2 Cores
-           - El archivo Otime.c 
+           - El archivo Otime.c debe ser modificado en la siguiente linea:
                       #define MAX_THREADS 2
-           - El archivo lanzador.pl
+           - El archivo lanzador.pl debe ser modificado en la siguiente linea:
                       @cores = ("1","2");
-
 ## 2do Escenario:  4 Cores
 
 ## 3er Escenario: 6 Cores

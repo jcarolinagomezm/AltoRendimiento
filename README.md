@@ -10,8 +10,11 @@
            Yesid Alexander Caicedo
            
 
-#Objetivo: El objetivo de este proyecto es probar y realizar metricas y análisis de paralelización en sistemas de computo a través de muliplicación de matrices usando OpenMP, 
-           Se realizará experimentación de la solución openMP para multiplicación de matrices de ColumnasXColumnas y multiplicación de matrices de FilasXFilas(punteros) en diferentes escenarios de pruebas con diferentes baterias de pruebas  para medir el rendimiento.
+#Objetivo: 
+
+El objetivo de este proyecto es probar y realizar metricas y análisis de paralelización en sistemas de computo a través de muliplicación de matrices usando OpenMP,
+
+Se realizará experimentación de la solución openMP para multiplicación de matrices de ColumnasXColumnas y multiplicación de matrices de FilasXFilas(punteros) en diferentes escenarios de pruebas con diferentes baterias de pruebas  para medir el rendimiento.
 
 ## Multiplicación de matrices de ColumnasXColumnas
 

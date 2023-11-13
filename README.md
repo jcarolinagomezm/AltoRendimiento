@@ -1,7 +1,8 @@
 # AltoRendimiento
 #Universidad Pontificia Javeriana
 
-#Autores:  Jeimy Carolina Gómez Matiz
+#Autores:  
+           Jeimy Carolina Gómez Matiz
 
            Juan Sebastián Español
            

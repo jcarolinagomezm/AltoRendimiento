@@ -20,6 +20,8 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
 # Multiplicación de matrices de ColumnasXColumnas
 
 ## 1 Escenario: 2 Cores
+           #define MAX_THREADS 20 
+           @cores = ("1","2");
 
 ## 2do Escenario:  4 Cores
 

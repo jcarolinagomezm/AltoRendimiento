@@ -27,7 +27,7 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
 
 ## 4to escenario: 8 Cores
 
-## Multiplicación de matrices de FilasXFilas(punteros) 
+# Multiplicación de matrices de FilasXFilas(punteros) 
 
 ## 1 Escenario: 2 Cores
 

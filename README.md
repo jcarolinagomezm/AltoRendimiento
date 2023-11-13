@@ -17,7 +17,7 @@ El objetivo de este proyecto es probar y realizar metricas y análisis de parale
 
 Se realizará experimentación de la solución openMP para multiplicación de matrices de ColumnasXColumnas y multiplicación de matrices de FilasXFilas(punteros) en diferentes escenarios de pruebas con diferentes baterias de pruebas  para medir el rendimiento.
 
-# Multiplicación de matrices de ColumnasXColumnas
+# Multiplicación de matrices de ColumnasXColumnas y FilasXFilas(punteros) 
 
 ## 1 Escenario: 2 Cores
            - El archivo Otime.c debe ser modificado en la siguiente linea:
@@ -25,17 +25,18 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
            - El archivo lanzador.pl debe ser modificado en la siguiente linea:
                       @cores = ("1","2");
 ## 2do Escenario:  4 Cores
-
+           - El archivo Otime.c debe ser modificado en la siguiente linea:
+                      #define MAX_THREADS 4
+           - El archivo lanzador.pl debe ser modificado en la siguiente linea:
+                      @cores = ("1","2","3","4");
 ## 3er Escenario: 6 Cores
-
+           - El archivo Otime.c debe ser modificado en la siguiente linea:
+                      #define MAX_THREADS 6
+           - El archivo lanzador.pl debe ser modificado en la siguiente linea:
+                      @cores = ("1","2","3","4,"5","6");
 ## 4to escenario: 8 Cores
+           - El archivo Otime.c debe ser modificado en la siguiente linea:
+                      #define MAX_THREADS 8
+           - El archivo lanzador.pl debe ser modificado en la siguiente linea:
+                      @cores = ("1","2","3","4","5","6","7","8");
 
-# Multiplicación de matrices de FilasXFilas(punteros) 
-
-## 1 Escenario: 2 Cores
-
-## 2do Escenario:  4 Cores
-
-## 3er Escenario: 6 Cores
-
-## 4to escenario: 8 Cores

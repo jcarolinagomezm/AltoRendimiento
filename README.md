@@ -40,11 +40,19 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
            - El archivo lanzador.pl debe ser modificado en la siguiente linea:
                       @cores = ("1","2","3","4","5","6","7","8");
 
+# Ejemplos de Resultados (Según bateria de pruebas y experimentos realizados)
+En Cada una de las carpetas principales
+MM
+MMF
+
+Ahí estarán los datos de resultados para generar los SpeedUp, estos logs con los tiempos servirán de insumo para la graficación de los resultados.
+
+
 # Graficación de Resultados y toma de muestras de batería de pruebas
 
-Para realizar la tabulación y gráficas de los resultados y análizar el speedUp, se utilizó colab, que por medio de una libería de Python que se encuentra en la ruta del Repositorio (GraficasResultados/Colab/Tabular_solucion_HPC.ipynb)
+Para realizar la tabulación y gráficas de los resultados y análizar el speedUp, se utilizó colab, que por medio de una clase de Python que se encuentra en la ruta del Repositorio (GraficasResultados/Colab/Tabular_solucion_HPC.ipynb), se encarga de realizar la grafica del speedup acorde a los logs con los resultados productos de cada una de las baterias de experimentación. 
 
-El proyecto en líene apara ver las gráficas de speedUp se encuentra en:
+El proyecto en línea para ver las gráficas de speedUp se encuentra en:
 
 [httpscolab.research.google.comdrive1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0usp=sharing](https://colab.research.google.com/drive/1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0?usp=sharing)https://colab.research.google.com/drive/1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0?usp=sharing
 

@@ -18,7 +18,7 @@
 #include <sys/time.h>   // Biblioteca para funciones relacionadas con el tiempo
 #include <stdio.h>      // Biblioteca estándar para funciones de entrada/salida estándar
 
-#define MAX_THREADS 20   // Número máximo de hilos permitidos
+#define MAX_THREADS 20   // Número máximo de hilos permitidos, en el caso de la bateria de experimentos este valor puede ser (4,6 y ) dependiendo de la características de la instancia de computo sobre la cuel se este coerriendo la prueba
 
 struct timeval start[MAX_THREADS];  // Estructura para almacenar el tiempo de inicio de cada hilo
 struct timeval stop[MAX_THREADS];   // Estructura para almacenar el tiempo de finalización de cada hilo

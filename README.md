@@ -46,4 +46,5 @@ Para realizar la tabulación y gráficas de los resultados y análizar el speedU
 
 El proyecto en líene apara ver las gráficas de speedUp se encuentra en:
 
-httpscolab.research.google.comdrive1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0usp=sharing
+[httpscolab.research.google.comdrive1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0usp=sharing](https://colab.research.google.com/drive/1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0?usp=sharing)https://colab.research.google.com/drive/1WbkL_XiMZ0XBVoCxJSIv_qVWyxMpKQz0?usp=sharing
+

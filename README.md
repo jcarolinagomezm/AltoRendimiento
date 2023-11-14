@@ -41,9 +41,29 @@ Se realizará experimentación de la solución openMP para multiplicación de ma
                       @cores = ("1","2","3","4","5","6","7","8");
 
 # Ejemplos de Resultados (Según bateria de pruebas y experimentos realizados)
-En Cada una de las carpetas principales
-MM
-MMF
+Dentro del proyecto en Cada una de las carpetas principales se guardan los resultados después de correr la bateria de pruebas.
+###AltoRendimiento/MM1C/Soluciones/
+Dentro de esta carpeta se encuentra cada una de las carpetas o subcarpetas por cada una de las instancias de computo de las pruebas del programa de **multiplicación de matrices por Columnas** para cada una de las instancias:
+ Así:
+             /Soluciones2CPU/
+             /Soluciones4CPU/
+             /Soluciones6CPU/
+             /Soluciones8CPU/
+   Aquí apareceran los resultados para cada uno de los cores y tamaños de las matrices. Por ejemplo:
+   
+            ###AltoRendimiento/MM1C/Soluciones//Soluciones4CPU/MM1c-Size100-core1
+
+###AltoRendimiento/MM1F/Soluciones/
+ Dentro de esta carpeta se encuentra cada una de las carpetas o subcarpetas por cada una de las instancias de computo de las pruebas del programa de **multiplicación de matrices por filas (punteros)** para cada una de las instancias:
+ Así:
+      
+             /Soluciones4CPU/
+             /Soluciones6CPU/
+             /Soluciones8CPU/
+   Aquí apareceran los resultados de la multiplicación de matrices POR FILAS para cada uno de los cores y tamaños de las matrices. Por ejemplo:
+   
+            ###AltoRendimiento/MM1C/Soluciones//Soluciones4CPU/MM1c-Size100-core1
+            
 
 Ahí estarán los datos de resultados para generar los SpeedUp, estos logs con los tiempos servirán de insumo para la graficación de los resultados.
 

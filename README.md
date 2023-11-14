@@ -65,7 +65,7 @@ Dentro de esta carpeta se encuentra cada una de las carpetas o subcarpetas por c
              
    Aquí apareceran los resultados de la multiplicación de matrices POR FILAS para cada uno de los cores y tamaños de las matrices. Por ejemplo:
    
-            AltoRendimiento/MM1F/Soluciones//Soluciones4CPU/MM1c-Size100-core1
+            AltoRendimiento/MM1F/Soluciones//Soluciones4CPU/MM1f-Size100-core1
             
 
 Ahí estarán los datos de resultados para generar los SpeedUp, estos logs con los tiempos servirán de insumo para la graficación de los resultados.
